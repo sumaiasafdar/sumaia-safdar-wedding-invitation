@@ -1,0 +1,2016 @@
+<!DOCTYPE html>
+<html lang="ur" dir="ltr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سمعیہ &amp; محمد انس | Royal Wedding Invitation</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Authentic Urdu Nastaliq, Quranic Amiri, Royal Cinzel & Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            royal: {
+              emerald: '#061A16',
+              navy: '#081122',
+              maroon: '#3B0918',
+              crimson: '#5C1126',
+              gold: '#D4AF37',
+              goldLight: '#F6E6B4',
+              goldDark: '#9A7722',
+              ivory: '#FAF5E8'
+            }
+          },
+          fontFamily: {
+            nastaliq: ['"Noto Nastaliq Urdu"', 'serif'],
+            amiri: ['"Amiri"', 'serif'],
+            cinzel: ['"Cinzel Decorative"', 'serif'],
+            cormorant: ['"Cormorant Garamond"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --gold-primary: #D4AF37;
+      --gold-light: #F7E7B4;
+      --gold-dark: #9B741E;
+      --royal-bg: #061614;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #061513;
+      color: #F7E7B4;
+      font-family: 'Cormorant Garamond', serif;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Typography Helpers */
+    .urdu-text {
+      font-family: 'Noto Nastaliq Urdu', 'Amiri', serif;
+      direction: rtl;
+      line-height: 2.35;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      overflow: visible !important;
+      display: inline-block;
+    }
+
+    .urdu-name-display {
+      font-family: 'Noto Nastaliq Urdu', 'Amiri', serif;
+      direction: rtl;
+      line-height: 2.45;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      overflow: visible !important;
+      color: #F7E7B4;
+      text-shadow: 0 2px 14px rgba(212, 175, 55, 0.55), 0 0 28px rgba(191, 149, 63, 0.35);
+    }
+
+    .arabic-text {
+      font-family: 'Amiri', serif;
+      direction: rtl;
+      line-height: 2.2;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      overflow: visible !important;
+    }
+
+    /* Shimmering Metallic Gold Text (Used for Latin/Arabic titles without Nastaliq clipping) */
+    .gold-foil-text {
+      background: linear-gradient(
+        135deg,
+        #BF953F 0%,
+        #FCF6BA 25%,
+        #D4AF37 50%,
+        #FBF5B7 75%,
+        #AA771C 100%
+      );
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: goldShimmer 5s linear infinite;
+    }
+
+    .urdu-gold-glow {
+      color: #F7E7B4;
+      text-shadow: 0 2px 12px rgba(212, 175, 55, 0.5), 0 0 24px rgba(246, 230, 180, 0.25);
+    }
+
+    .arabic-text {
+      font-family: 'Amiri', serif;
+      direction: rtl;
+      line-height: 2.1;
+    }
+
+    /* Shimmering Metallic Gold Text */
+    .gold-foil-text {
+      background: linear-gradient(
+        135deg,
+        #BF953F 0%,
+        #FCF6BA 25%,
+        #D4AF37 50%,
+        #FBF5B7 75%,
+        #AA771C 100%
+      );
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: goldShimmer 5s linear infinite;
+    }
+
+    @keyframes goldShimmer {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+
+    /* Luxury Gold Border & Glow */
+    .royal-card {
+      background: linear-gradient(160deg, rgba(10, 29, 26, 0.88) 0%, rgba(16, 11, 24, 0.92) 55%, rgba(44, 9, 20, 0.88) 100%);
+      border: 1px solid rgba(212, 175, 55, 0.42);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.75), inset 0 0 30px rgba(212, 175, 55, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .royal-gold-btn {
+      background: linear-gradient(135deg, #AA771C 0%, #D4AF37 35%, #F6E6B4 50%, #D4AF37 65%, #8E6214 100%);
+      background-size: 200% auto;
+      color: #160B04;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.45), inset 0 1px 2px rgba(255, 255, 255, 0.7);
+      transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .royal-gold-btn:hover {
+      background-position: right center;
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 0 38px rgba(246, 230, 180, 0.75), inset 0 1px 3px rgba(255, 255, 255, 0.9);
+    }
+
+    /* Islamic Arabesque Background Pattern */
+    .islamic-pattern-bg {
+      background-image: radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.09) 0%, transparent 60%),
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23D4AF37' stroke-opacity='0.07' stroke-width='1'%3E%3Cpath d='M40 0L50 30L80 40L50 50L40 80L30 50L0 40L30 30Z'/%3E%3Ccircle cx='40' cy='40' r='16'/%3E%3Cpath d='M0 0L80 80M80 0L0 80' stroke-opacity='0.04'/%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    /* Opening Overlay Floral Curtain Animations */
+    #opening-curtain {
+      transition: opacity 1.3s ease, visibility 1.3s ease;
+    }
+
+    #opening-curtain.revealed {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .curtain-left, .curtain-right {
+      transition: transform 1.4s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    #opening-curtain.revealed .curtain-left {
+      transform: translateX(-105%) rotate(-3deg);
+    }
+
+    #opening-curtain.revealed .curtain-right {
+      transform: translateX(105%) rotate(3deg);
+    }
+
+    #opening-curtain.revealed .opening-center-content {
+      transform: scale(1.12);
+      opacity: 0;
+      transition: all 0.9s ease;
+    }
+
+    /* Gentle Floating & Breathing Animations */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(1.5deg); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.35)); }
+      50% { filter: drop-shadow(0 0 26px rgba(246, 230, 180, 0.75)); }
+    }
+
+    @keyframes spinSlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .animate-float {
+      animation: floatSlow 6s ease-in-out infinite;
+    }
+
+    .animate-glow {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+
+    .animate-spin-slow {
+      animation: spinSlow 48s linear infinite;
+    }
+
+    /* Scroll Reveal */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.95s cubic-bezier(0.22, 1, 0.36, 1), transform 0.95s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reveal-on-scroll.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Cinematic Page Transitions */
+    .view-page {
+      display: none;
+      opacity: 0;
+      transform: scale(0.985);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+
+    .view-page.active-view {
+      display: block;
+      opacity: 1;
+      transform: scale(1);
+      animation: cinematicFadeIn 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    @keyframes cinematicFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(16px) scale(0.985);
+        filter: blur(4px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+      }
+    }
+
+    /* Equalizer Bars for Music Button */
+    .eq-bar {
+      width: 3px;
+      background: #1A0E05;
+      border-radius: 99px;
+      transition: height 0.2s ease;
+    }
+
+    .playing .eq-bar:nth-child(1) { animation: eqBounce 0.7s ease-in-out infinite alternate; }
+    .playing .eq-bar:nth-child(2) { animation: eqBounce 0.5s ease-in-out 0.2s infinite alternate; }
+    .playing .eq-bar:nth-child(3) { animation: eqBounce 0.8s ease-in-out 0.1s infinite alternate; }
+    .playing .eq-bar:nth-child(4) { animation: eqBounce 0.6s ease-in-out 0.3s infinite alternate; }
+
+    @keyframes eqBounce {
+      0% { height: 4px; }
+      100% { height: 16px; }
+    }
+
+    /* Royal Arched Couple Portrait Frame */
+    .couple-arch-frame {
+      border-radius: 9999px 9999px 24px 24px;
+      background: linear-gradient(180deg, #FAF3E3 0%, #EFE2C6 100%);
+      border: 2px solid rgba(212, 175, 55, 0.75);
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.65), inset 0 0 20px rgba(212, 175, 55, 0.35);
+      overflow: hidden;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #05110F;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #9A7722, #D4AF37, #9A7722);
+      border-radius: 999px;
+    }
+  </style>
+</head>
+<body class="islamic-pattern-bg min-h-screen relative selection:bg-royal-gold selection:text-royal-emerald">
+
+  <!-- Full-Page Interactive Golden Dust & Rose Petal Canvas -->
+  <canvas id="ambient-canvas" class="fixed inset-0 w-full h-full pointer-events-none z-40"></canvas>
+
+  <!-- Primary HTML5 Audio Element (Populated with synthesized 16s Stereo Romantic WAV Blob) -->
+  <audio id="bg-wedding-audio" loop playsinline preload="auto"></audio>
+
+  <!-- Floating Royal Music Toggle Button -->
+  <button
+    id="music-toggle-btn"
+    onclick="toggleMusic()"
+    aria-label="Toggle Background Music"
+    class="fixed top-4 right-4 z-50 royal-gold-btn px-3.5 py-2.5 rounded-full flex items-center gap-2.5 cursor-pointer border border-amber-200/70"
+  >
+    <div id="eq-indicator" class="flex items-end gap-0.5 h-4">
+      <span class="eq-bar h-1.5"></span>
+      <span class="eq-bar h-3"></span>
+      <span class="eq-bar h-2"></span>
+      <span class="eq-bar h-2.5"></span>
+    </div>
+    <span id="music-label" class="text-xs sm:text-sm font-cinzel font-bold tracking-wider uppercase">Music Off • میوزک</span>
+  </button>
+
+  <!-- Replay Floral Opening Button (Top Left) -->
+  <button
+    onclick="replayOpening()"
+    aria-label="Replay Floral Opening"
+    class="fixed top-4 left-4 z-50 bg-royal-emerald/85 hover:bg-royal-maroon/90 text-royal-goldLight border border-royal-gold/50 px-3.5 py-2 rounded-full text-xs sm:text-sm font-cormorant tracking-wider backdrop-blur-md transition-all flex items-center gap-1.5 shadow-lg cursor-pointer"
+  >
+    <span>✦</span>
+    <span class="hidden sm:inline">Floral Reveal</span>
+  </button>
+
+  <!-- ===================================================================== -->
+  <!-- 1. CINEMATIC FLORAL REVEAL OPENING OVERLAY                            -->
+  <!-- ===================================================================== -->
+  <div id="opening-curtain" class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-[#040E0D]">
+    <!-- Left Floral & Velvet Curtain Panel -->
+    <div class="curtain-left absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#2D0712] via-[#081C18] to-[#061513] border-r border-royal-gold/30 overflow-hidden">
+      <!-- Ornate Botanical SVG Left -->
+      <svg class="w-full h-full opacity-55" viewBox="0 0 400 800" preserveAspectRatio="xMinYMid slice">
+        <defs>
+          <linearGradient id="goldGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8C6218"/>
+            <stop offset="50%" stop-color="#F6E6B4"/>
+            <stop offset="100%" stop-color="#D4AF37"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#goldGradLeft)" fill="none" stroke-width="1.5">
+          <path d="M-20,0 Q180,220 40,420 T120,820" />
+          <path d="M20,0 Q230,260 80,480 T160,820" stroke-dasharray="4 4"/>
+          <!-- Stylized Royal Roses & Leaves -->
+          <circle cx="95" cy="180" r="34" fill="#4A0E1C" fill-opacity="0.55"/>
+          <circle cx="95" cy="180" r="20" />
+          <circle cx="95" cy="180" r="9" />
+          <path d="M95,146 Q135,120 150,155 Q120,175 95,146 Z" fill="#0B2E26" fill-opacity="0.7"/>
+          <circle cx="65" cy="430" r="42" fill="#4A0E1C" fill-opacity="0.55"/>
+          <circle cx="65" cy="430" r="24" />
+          <circle cx="65" cy="430" r="10" />
+          <path d="M107,430 Q155,405 168,445 Q130,460 107,430 Z" fill="#0B2E26" fill-opacity="0.7"/>
+          <circle cx="110" cy="650" r="30" fill="#4A0E1C" fill-opacity="0.5"/>
+          <circle cx="110" cy="650" r="16" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Right Floral & Velvet Curtain Panel -->
+    <div class="curtain-right absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-[#2D0712] via-[#081C18] to-[#061513] border-l border-royal-gold/30 overflow-hidden">
+      <!-- Ornate Botanical SVG Right -->
+      <svg class="w-full h-full opacity-55" viewBox="0 0 400 800" preserveAspectRatio="xMaxYMid slice">
+        <defs>
+          <linearGradient id="goldGradRight" x1="100%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#8C6218"/>
+            <stop offset="50%" stop-color="#F6E6B4"/>
+            <stop offset="100%" stop-color="#D4AF37"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#goldGradRight)" fill="none" stroke-width="1.5">
+          <path d="M420,0 Q220,220 360,420 T280,820" />
+          <path d="M380,0 Q170,260 320,480 T240,820" stroke-dasharray="4 4"/>
+          <circle cx="305" cy="180" r="34" fill="#4A0E1C" fill-opacity="0.55"/>
+          <circle cx="305" cy="180" r="20" />
+          <circle cx="305" cy="180" r="9" />
+          <path d="M305,146 Q265,120 250,155 Q280,175 305,146 Z" fill="#0B2E26" fill-opacity="0.7"/>
+          <circle cx="335" cy="430" r="42" fill="#4A0E1C" fill-opacity="0.55"/>
+          <circle cx="335" cy="430" r="24" />
+          <circle cx="335" cy="430" r="10" />
+          <path d="M293,430 Q245,405 232,445 Q270,460 293,430 Z" fill="#0B2E26" fill-opacity="0.7"/>
+          <circle cx="290" cy="650" r="30" fill="#4A0E1C" fill-opacity="0.5"/>
+          <circle cx="290" cy="650" r="16" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Center Crest & Open Invitation Button -->
+    <div class="opening-center-content relative z-10 max-w-xl w-full mx-4 text-center px-6 py-10 rounded-3xl royal-card border-2 border-royal-gold/60">
+      <p class="arabic-text text-2xl sm:text-3xl gold-foil-text mb-3">
+        بِسْمِ اللّٰہِ الرَّحْمٰنِ الرَّحِیْمِ
+      </p>
+
+      <!-- Custom Artistic Calligraphy Monogram (س + ا) -->
+      <div class="w-44 h-44 sm:w-52 sm:h-52 mx-auto my-2 relative flex items-center justify-center animate-glow">
+        <svg viewBox="0 0 260 260" class="w-full h-full">
+          <defs>
+            <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#AA771C"/>
+              <stop offset="35%" stop-color="#FCF6BA"/>
+              <stop offset="70%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#8A6014"/>
+            </linearGradient>
+          </defs>
+          <!-- Outer Rotating Mandala Ring -->
+          <g class="origin-center animate-spin-slow">
+            <circle cx="130" cy="130" r="116" fill="none" stroke="url(#crestGold)" stroke-width="1.2" stroke-dasharray="6 4"/>
+            <polygon points="130,8 158,38 202,38 202,82 232,110 218,150 232,190 195,212 175,248 130,235 85,248 65,212 28,190 42,150 28,110 58,82 58,38 102,38" fill="none" stroke="url(#crestGold)" stroke-width="1" opacity="0.75"/>
+          </g>
+          <!-- Inner Royal Medallion -->
+          <circle cx="130" cy="130" r="92" fill="#071916" stroke="url(#crestGold)" stroke-width="2.5"/>
+          <circle cx="130" cy="130" r="84" fill="none" stroke="url(#crestGold)" stroke-width="0.8" opacity="0.7"/>
+
+          <!-- Artistic Calligraphic Letter "س" (Seen for Samia) -->
+          <path d="M 182 115 C 178 128, 168 131, 162 120 C 156 131, 145 131, 139 119 C 134 148, 114 176, 82 174 C 58 172, 50 150, 62 133"
+                fill="none" stroke="url(#crestGold)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Artistic Calligraphic Letter "ا" (Alif for Anas) Intertwined -->
+          <path d="M 116 74 C 115 104, 117 136, 121 168"
+                fill="none" stroke="url(#crestGold)" stroke-width="7.5" stroke-linecap="round"/>
+          <!-- Calligraphic Diamond Nuqta & Taj Flourish -->
+          <polygon points="116,58 122,64 116,70 110,64" fill="url(#crestGold)"/>
+          <path d="M 96 92 Q 130 78 164 92" fill="none" stroke="url(#crestGold)" stroke-width="1.6" stroke-linecap="round"/>
+          <polygon points="150,152 155,157 150,162 145,157" fill="url(#crestGold)"/>
+        </svg>
+      </div>
+
+      <!-- Couple Names in Urdu Nastaliq -->
+      <div class="urdu-name-display text-3xl sm:text-4xl font-bold flex items-center justify-center gap-4 my-1">
+        <span>سمعیہ صفدر</span>
+        <span class="text-xl sm:text-2xl text-amber-300/90 font-amiri">✦</span>
+        <span>محمد انس</span>
+      </div>
+
+      <p class="font-cinzel text-xs sm:text-sm tracking-[0.28em] uppercase text-royal-goldLight/80 mt-2 mb-6">
+        Royal Wedding Celebration • December 2026
+      </p>
+
+      <!-- Open Invitation CTA -->
+      <button
+        onclick="openInvitation()"
+        class="royal-gold-btn px-8 py-4 rounded-full font-bold text-base sm:text-lg tracking-wide cursor-pointer inline-flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3"
+      >
+        <span class="urdu-text text-lg sm:text-xl leading-relaxed py-1">دعوت نامہ کھولیں</span>
+        <span class="hidden sm:inline opacity-60">•</span>
+        <span class="font-cinzel text-xs sm:text-sm uppercase tracking-widest">Open Invitation</span>
+      </button>
+
+      <p class="text-xs text-royal-goldLight/60 mt-4 italic">
+        Tap to unveil floral invitation &amp; romantic instrumental melody
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- 2. STICKY CINEMATIC EVENT & PAGE NAVIGATION BAR                       -->
+  <!-- ===================================================================== -->
+  <nav aria-label="Wedding Pages Navigation" class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[95%] max-w-3xl">
+    <div class="royal-card rounded-full px-2 py-2 sm:px-4 sm:py-2.5 flex items-center justify-between gap-1 border border-royal-gold/50 shadow-2xl">
+      <button onclick="switchPage('home')" id="nav-home" class="nav-pill active-pill flex-1 py-2 px-2 sm:px-3 rounded-full text-center transition-all cursor-pointer bg-royal-gold text-royal-emerald font-bold">
+        <span class="block urdu-text text-xs sm:text-sm !py-0 leading-relaxed">دعوت نامہ</span>
+        <span class="block font-cinzel text-[9px] sm:text-[10px] tracking-wider uppercase">Home</span>
+      </button>
+
+      <button onclick="switchPage('nikaah')" id="nav-nikaah" class="nav-pill flex-1 py-2 px-2 sm:px-3 rounded-full text-center transition-all cursor-pointer text-royal-goldLight hover:bg-royal-gold/20">
+        <span class="block urdu-text text-xs sm:text-sm !py-0 leading-relaxed">نکاح</span>
+        <span class="block font-cinzel text-[9px] sm:text-[10px] tracking-wider uppercase">Nikaah</span>
+      </button>
+
+      <button onclick="switchPage('mehndi')" id="nav-mehndi" class="nav-pill flex-1 py-2 px-2 sm:px-3 rounded-full text-center transition-all cursor-pointer text-royal-goldLight hover:bg-royal-gold/20">
+        <span class="block urdu-text text-xs sm:text-sm !py-0 leading-relaxed">مہندی</span>
+        <span class="block font-cinzel text-[9px] sm:text-[10px] tracking-wider uppercase">Mehndi</span>
+      </button>
+
+      <button onclick="switchPage('baraat')" id="nav-baraat" class="nav-pill flex-1 py-2 px-2 sm:px-3 rounded-full text-center transition-all cursor-pointer text-royal-goldLight hover:bg-royal-gold/20">
+        <span class="block urdu-text text-xs sm:text-sm !py-0 leading-relaxed">بارات</span>
+        <span class="block font-cinzel text-[9px] sm:text-[10px] tracking-wider uppercase">Baraat</span>
+      </button>
+
+      <button onclick="switchPage('valeema')" id="nav-valeema" class="nav-pill flex-1 py-2 px-2 sm:px-3 rounded-full text-center transition-all cursor-pointer text-royal-goldLight hover:bg-royal-gold/20">
+        <span class="block urdu-text text-xs sm:text-sm !py-0 leading-relaxed">ولیمہ</span>
+        <span class="block font-cinzel text-[9px] sm:text-[10px] tracking-wider uppercase">Valeema</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================================================================== -->
+  <!-- PAGE 0: HOME / MAIN ROYAL INVITATION                                  -->
+  <!-- ===================================================================== -->
+  <main id="page-home" class="view-page active-view pb-32 pt-16 sm:pt-20 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto space-y-16 sm:space-y-24">
+
+      <!-- SECTION A: HERO & CUSTOM ARTISTIC CALLIGRAPHY -->
+      <section class="text-center relative pt-4">
+        <!-- Ornate Top Divider -->
+        <div class="flex items-center justify-center gap-3 mb-4 opacity-90">
+          <span class="h-[1px] w-16 sm:w-28 bg-gradient-to-r from-transparent to-royal-gold"></span>
+          <span class="text-royal-gold text-lg">❖</span>
+          <span class="h-[1px] w-16 sm:w-28 bg-gradient-to-l from-transparent to-royal-gold"></span>
+        </div>
+
+        <!-- Bismillah & Opening Message -->
+        <div class="max-w-2xl mx-auto mb-8 space-y-2">
+          <h2 class="arabic-text text-3xl sm:text-4xl md:text-5xl gold-foil-text font-bold drop-shadow">
+            بِسْمِ اللّٰہِ الرَّحْمٰنِ الرَّحِیْمِ
+          </h2>
+          <p class="urdu-text block text-xl sm:text-2xl md:text-3xl text-royal-goldLight">
+            خوشیوں اور دعاؤں کے اس مبارک موقع پر
+          </p>
+          <p class="urdu-text block text-xl sm:text-2xl md:text-3xl text-amber-200 font-semibold">
+            ہماری تقریب میں آپ کو دل سے خوش آمدید!
+          </p>
+        </div>
+
+        <!-- Artistic Custom Calligraphy Crest (س + ا Combined) & Full Names -->
+        <div class="royal-card rounded-3xl p-6 sm:p-12 relative overflow-visible max-w-4xl mx-auto">
+          <!-- Corner Filigree Accents -->
+          <div class="absolute top-3 left-3 w-12 h-12 border-t-2 border-l-2 border-royal-gold/70 rounded-tl-xl pointer-events-none"></div>
+          <div class="absolute top-3 right-3 w-12 h-12 border-t-2 border-r-2 border-royal-gold/70 rounded-tr-xl pointer-events-none"></div>
+          <div class="absolute bottom-3 left-3 w-12 h-12 border-b-2 border-l-2 border-royal-gold/70 rounded-bl-xl pointer-events-none"></div>
+          <div class="absolute bottom-3 right-3 w-12 h-12 border-b-2 border-r-2 border-royal-gold/70 rounded-br-xl pointer-events-none"></div>
+
+          <p class="font-cinzel text-xs sm:text-sm tracking-[0.35em] uppercase text-royal-gold/90 mb-4">
+            The Royal Wedding Of
+          </p>
+
+          <!-- Bespoke Intertwined Calligraphy Emblem -->
+          <div class="w-48 h-48 sm:w-60 sm:h-60 mx-auto my-2 animate-float">
+            <svg viewBox="0 0 300 300" class="w-full h-full drop-shadow-[0_10px_25px_rgba(212,175,55,0.35)]">
+              <defs>
+                <linearGradient id="heroCalligraphyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#9A7722"/>
+                  <stop offset="30%" stop-color="#FFF2B2"/>
+                  <stop offset="60%" stop-color="#D4AF37"/>
+                  <stop offset="100%" stop-color="#805812"/>
+                </linearGradient>
+              </defs>
+              <!-- Decorative Mughal Arch / Octagram Frame -->
+              <circle cx="150" cy="150" r="136" fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="1" stroke-dasharray="3 5"/>
+              <circle cx="150" cy="150" r="124" fill="rgba(6, 22, 19, 0.7)" stroke="url(#heroCalligraphyGold)" stroke-width="2.2"/>
+              <path d="M150 18 L182 54 L232 54 L232 104 L268 136 L252 184 L268 228 L224 248 L198 282 L150 266 L102 282 L76 248 L32 228 L48 184 L32 136 L68 104 L68 54 L118 54 Z"
+                    fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="1.1" opacity="0.65"/>
+
+              <!-- Intertwined Custom Calligraphy: س (Samia) & ا (Anas) -->
+              <!-- Graceful Sweeping Seen (س) -->
+              <path d="M 218 132 C 213 148, 200 151, 193 137 C 186 151, 173 151, 166 136 C 159 173, 134 208, 92 204 C 63 201, 52 174, 68 152"
+                    fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Majestic Vertical Alif (ا) Weaving Through -->
+              <path d="M 135 80 C 134 118, 137 156, 142 196"
+                    fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="9" stroke-linecap="round"/>
+              <!-- Calligraphic Ornamental Accents (Harakaat & Nuqat) -->
+              <polygon points="135,61 142,68 135,75 128,68" fill="url(#heroCalligraphyGold)"/>
+              <path d="M 105 104 Q 150 86 195 104" fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M 164 176 Q 182 168 194 180" fill="none" stroke="url(#heroCalligraphyGold)" stroke-width="2" stroke-linecap="round"/>
+              <polygon points="178,187 183,192 178,197 173,192" fill="url(#heroCalligraphyGold)"/>
+            </svg>
+          </div>
+
+          <!-- Bride & Groom Names in Grand Unclipped Nastaliq + Royal English -->
+          <div class="grid grid-cols-1 md:grid-cols-11 items-center gap-4 sm:gap-6 mt-4 overflow-visible">
+            <!-- Groom -->
+            <div class="md:col-span-5 text-center overflow-visible">
+              <h1 class="urdu-name-display text-4xl sm:text-5xl md:text-6xl font-bold">
+                محمد انس
+              </h1>
+              <p class="font-cinzel text-lg sm:text-xl tracking-widest text-royal-goldLight mt-1">
+                Muhammad Anas
+              </p>
+              <p class="text-sm sm:text-base text-royal-goldLight/75 italic mt-1">
+                S/O Tassawer Hussain
+              </p>
+            </div>
+
+            <!-- Center Ampersand Emblem -->
+            <div class="md:col-span-1 flex items-center justify-center">
+              <div class="w-12 h-12 rounded-full border border-royal-gold/60 flex items-center justify-center bg-royal-maroon/50 shadow-inner">
+                <span class="font-cinzel text-xl gold-foil-text">&amp;</span>
+              </div>
+            </div>
+
+            <!-- Bride -->
+            <div class="md:col-span-5 text-center overflow-visible">
+              <h1 class="urdu-name-display text-4xl sm:text-5xl md:text-6xl font-bold">
+                سمعیہ صفدر
+              </h1>
+              <p class="font-cinzel text-lg sm:text-xl tracking-widest text-royal-goldLight mt-1">
+                Samia Safdar
+              </p>
+              <p class="text-sm sm:text-base text-royal-goldLight/75 italic mt-1">
+                D/O Muhammad Safdar Shaheen
+              </p>
+            </div>
+          </div>
+
+          <!-- Quick Event Date Ribbon -->
+          <div class="mt-8 pt-6 border-t border-royal-gold/25 flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-sm sm:text-base text-royal-goldLight/90">
+            <span class="px-4 py-1.5 rounded-full bg-royal-emerald/90 border border-royal-gold/40">
+              ✦ 10th Dec 2026: Nikaah &amp; Mehndi
+            </span>
+            <span class="px-4 py-1.5 rounded-full bg-royal-maroon/80 border border-royal-gold/40">
+              ✦ 12th Dec 2026: Baraat
+            </span>
+            <span class="px-4 py-1.5 rounded-full bg-royal-navy/90 border border-royal-gold/40">
+              ✦ 27th Dec 2026: Valeema
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION B: LUXURY GOLDEN COUNTDOWN TIMER -->
+      <section class="reveal-on-scroll max-w-4xl mx-auto text-center">
+        <div class="royal-card rounded-3xl p-6 sm:p-10 border border-royal-gold/50 relative">
+          <p class="urdu-text urdu-gold-glow text-2xl sm:text-3xl font-semibold">
+            تقریبِ سعید کے آغاز میں باقی وقت
+          </p>
+          <h3 class="font-cinzel text-sm sm:text-base tracking-[0.28em] uppercase text-royal-goldLight/80 mt-1 mb-6">
+            Luxury Golden Countdown • Nikaah Ceremony
+          </h3>
+
+          <!-- Countdown Event Selector Pills -->
+          <div class="flex flex-wrap justify-center gap-2 mb-7">
+            <button onclick="setCountdownTarget('2026-12-10T19:00:00+05:00', 'Nikaah Ceremony • 10 Dec 2026', this)" class="cd-tab px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-cinzel tracking-wider bg-royal-gold text-royal-emerald font-bold cursor-pointer transition">
+              Nikaah (10 Dec)
+            </button>
+            <button onclick="setCountdownTarget('2026-12-10T20:00:00+05:00', 'Mehndi Night • 10 Dec 2026', this)" class="cd-tab px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-cinzel tracking-wider border border-royal-gold/40 text-royal-goldLight hover:bg-royal-gold/20 cursor-pointer transition">
+              Mehndi (10 Dec)
+            </button>
+            <button onclick="setCountdownTarget('2026-12-12T12:00:00+05:00', 'Royal Baraat • 12 Dec 2026', this)" class="cd-tab px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-cinzel tracking-wider border border-royal-gold/40 text-royal-goldLight hover:bg-royal-gold/20 cursor-pointer transition">
+              Baraat (12 Dec)
+            </button>
+            <button onclick="setCountdownTarget('2026-12-27T22:00:00+05:00', 'Grand Valeema • 27 Dec 2026', this)" class="cd-tab px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-cinzel tracking-wider border border-royal-gold/40 text-royal-goldLight hover:bg-royal-gold/20 cursor-pointer transition">
+              Valeema (27 Dec)
+            </button>
+          </div>
+
+          <p id="countdown-subtitle" class="text-sm sm:text-base text-amber-200/90 italic mb-5">
+            Counting down to Nikaah Ceremony • 10 Dec 2026
+          </p>
+
+          <!-- 4 Golden Countdown Boxes -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-5 max-w-2xl mx-auto">
+            <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-b from-[#132924] to-[#081210] border border-royal-gold/60 shadow-[0_0_25px_rgba(212,175,55,0.18)]">
+              <div id="cd-days" class="font-cinzel text-3xl sm:text-5xl font-bold gold-foil-text">00</div>
+              <div class="urdu-text text-base sm:text-lg text-royal-goldLight mt-1">دن</div>
+              <div class="font-cinzel text-[10px] tracking-[0.25em] uppercase text-royal-gold/75">Days</div>
+            </div>
+
+            <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-b from-[#132924] to-[#081210] border border-royal-gold/60 shadow-[0_0_25px_rgba(212,175,55,0.18)]">
+              <div id="cd-hours" class="font-cinzel text-3xl sm:text-5xl font-bold gold-foil-text">00</div>
+              <div class="urdu-text text-base sm:text-lg text-royal-goldLight mt-1">گھنٹے</div>
+              <div class="font-cinzel text-[10px] tracking-[0.25em] uppercase text-royal-gold/75">Hours</div>
+            </div>
+
+            <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-b from-[#132924] to-[#081210] border border-royal-gold/60 shadow-[0_0_25px_rgba(212,175,55,0.18)]">
+              <div id="cd-minutes" class="font-cinzel text-3xl sm:text-5xl font-bold gold-foil-text">00</div>
+              <div class="urdu-text text-base sm:text-lg text-royal-goldLight mt-1">منٹ</div>
+              <div class="font-cinzel text-[10px] tracking-[0.25em] uppercase text-royal-gold/75">Minutes</div>
+            </div>
+
+            <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-b from-[#132924] to-[#081210] border border-royal-gold/60 shadow-[0_0_25px_rgba(212,175,55,0.18)]">
+              <div id="cd-seconds" class="font-cinzel text-3xl sm:text-5xl font-bold gold-foil-text">00</div>
+              <div class="urdu-text text-base sm:text-lg text-royal-goldLight mt-1">سیکنڈ</div>
+              <div class="font-cinzel text-[10px] tracking-[0.25em] uppercase text-royal-gold/75">Seconds</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION C: FORMAL FAMILY INVITATION SCROLL -->
+      <section class="reveal-on-scroll max-w-4xl mx-auto">
+        <div class="royal-card rounded-3xl p-7 sm:p-14 text-center relative border-2 border-royal-gold/50">
+          <div class="w-16 h-16 mx-auto mb-3 text-royal-gold">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M32 6 L38 22 L54 22 L41 32 L46 48 L32 38 L18 48 L23 32 L10 22 L26 22 Z"/>
+              <circle cx="32" cy="32" r="28" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+
+          <p class="arabic-text text-2xl sm:text-3xl gold-foil-text mb-4">
+            بِسْمِ اللّٰہِ الرَّحْمٰنِ الرَّحِیْمِ
+          </p>
+
+          <p class="text-lg sm:text-xl text-royal-goldLight/90 italic mb-4">
+            With the blessings of Almighty Allah and the prayers of our elders,
+          </p>
+
+          <!-- Hosts / Parents Names -->
+          <div class="space-y-2 my-5">
+            <p class="urdu-text text-2xl sm:text-3xl font-bold text-amber-200">
+              جناب تصور حسین و اہلیہ <span class="text-royal-gold mx-2">و</span> جناب محمد صفدر شاہین و اہلیہ
+            </p>
+            <p class="font-cormorant text-lg sm:text-xl text-royal-goldLight/85">
+              Mr. &amp; Mrs. Tassawer Hussain &amp; Mr. &amp; Mrs. Muhammad Safdar Shaheen
+            </p>
+          </div>
+
+          <p class="text-lg sm:text-xl text-royal-goldLight/90 max-w-2xl mx-auto leading-relaxed my-4">
+            cordially invite you and your family to share in the joy of the wedding celebrations of their beloved children
+          </p>
+
+          <!-- Groom & Bride Formal Calligraphic Block -->
+          <div class="my-8 py-6 px-4 rounded-2xl bg-black/30 border border-royal-gold/30 max-w-2xl mx-auto space-y-4 overflow-visible">
+            <div class="overflow-visible">
+              <p class="urdu-name-display text-3xl sm:text-4xl font-bold !py-3">
+                عزیزم محمد انس
+              </p>
+              <p class="urdu-text block text-lg sm:text-xl text-royal-goldLight/90 !py-1">
+                (ولدِ جناب تصور حسین)
+              </p>
+              <p class="text-sm sm:text-base text-royal-goldLight/75 italic">
+                Muhammad Anas — S/O Tassawer Hussain
+              </p>
+            </div>
+
+            <div class="urdu-text block text-2xl text-royal-gold font-bold !py-1">
+              ✦ ہمراہ ✦
+            </div>
+
+            <div class="overflow-visible">
+              <p class="urdu-name-display text-3xl sm:text-4xl font-bold !py-3">
+                عزیزہ سمعیہ صفدر
+              </p>
+              <p class="urdu-text block text-lg sm:text-xl text-royal-goldLight/90 !py-1">
+                (بنتِ جناب محمد صفدر شاہین)
+              </p>
+              <p class="text-sm sm:text-base text-royal-goldLight/75 italic">
+                Samia Safdar — D/O Muhammad Safdar Shaheen
+              </p>
+            </div>
+          </div>
+
+          <!-- Quranic Verse (Surah Ar-Rum 30:21) -->
+          <div class="mt-8 pt-6 border-t border-royal-gold/30 max-w-3xl mx-auto">
+            <p class="arabic-text text-2xl sm:text-3xl md:text-4xl text-amber-200 leading-loose mb-4">
+              وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ
+            </p>
+            <p class="text-base sm:text-lg text-royal-goldLight/85 italic leading-relaxed">
+              “And among His signs is that He created for you mates from among yourselves, that you may dwell in tranquility with them, and He has put love and mercy between your hearts.”
+            </p>
+            <p class="font-cinzel text-xs sm:text-sm tracking-widest text-royal-gold mt-2">
+              — Surah Ar-Rum (30:21) —
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION D: FOUR SEPARATE CINEMATIC EVENT PAGES LAUNCHER -->
+      <section class="reveal-on-scroll max-w-5xl mx-auto">
+        <div class="text-center mb-10">
+          <p class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold">
+            تقریباتِ شادی
+          </p>
+          <h2 class="font-cinzel text-2xl sm:text-3xl tracking-wider uppercase text-royal-goldLight mt-1">
+            Four Cinematic Wedding Chapters
+          </h2>
+          <p class="text-base sm:text-lg text-royal-goldLight/75 mt-2">
+            Tap any event card to explore its dedicated royal chapter &amp; venue directions
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <!-- Card 1: Nikaah -->
+          <div onclick="switchPage('nikaah')" class="group rounded-3xl p-6 sm:p-7 bg-gradient-to-br from-[#0A2620] via-[#071815] to-[#142018] border border-royal-gold/50 hover:border-royal-gold transition-all duration-500 shadow-2xl relative overflow-hidden flex flex-col justify-between cursor-pointer">
+            <div>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <span class="font-cinzel text-xs tracking-[0.25em] uppercase text-royal-gold">Chapter I</span>
+                  <h3 class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold block !py-2">تقریبِ نکاح</h3>
+                  <p class="font-cinzel text-xl text-royal-goldLight">Nikaah Ceremony</p>
+                </div>
+                <div class="w-28 h-36 sm:w-32 sm:h-40 couple-arch-frame shrink-0" data-couple-art="nikaah"></div>
+              </div>
+
+              <div class="mt-4 space-y-2 text-royal-goldLight/95 text-base sm:text-lg">
+                <p>📅 Thursday, 10th December 2026</p>
+                <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-xl bg-black/45 border border-royal-gold/45">
+                  <span class="font-cinzel text-base sm:text-lg font-bold gold-foil-text">🕖 7:00 PM</span>
+                  <span class="urdu-text text-sm text-amber-200 !py-0">شام 7:00 بجے</span>
+                </div>
+                <p class="text-sm sm:text-base text-royal-goldLight/85">📍 SS Marriage Lawn, Bukhari Villas, Multan</p>
+              </div>
+            </div>
+
+            <div class="mt-5 flex items-center justify-between pt-4 border-t border-royal-gold/25">
+              <span class="text-sm font-cinzel tracking-wider text-royal-gold group-hover:translate-x-1 transition">Enter Nikaah Page →</span>
+              <span class="urdu-text text-sm text-amber-200 !py-0">تفصیلات دیکھیں</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Mehndi -->
+          <div onclick="switchPage('mehndi')" class="group rounded-3xl p-6 sm:p-7 bg-gradient-to-br from-[#1C2A12] via-[#122219] to-[#3B170A] border border-royal-gold/50 hover:border-royal-gold transition-all duration-500 shadow-2xl relative overflow-hidden flex flex-col justify-between cursor-pointer">
+            <div>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <span class="font-cinzel text-xs tracking-[0.25em] uppercase text-amber-300">Chapter II</span>
+                  <h3 class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold block !py-2">رسمِ مہندی</h3>
+                  <p class="font-cinzel text-xl text-royal-goldLight">Mehndi Celebration</p>
+                </div>
+                <div class="w-28 h-36 sm:w-32 sm:h-40 couple-arch-frame shrink-0" data-couple-art="mehndi"></div>
+              </div>
+
+              <div class="mt-4 space-y-2 text-royal-goldLight/95 text-base sm:text-lg">
+                <p>📅 Thursday, 10th December 2026</p>
+                <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-xl bg-black/45 border border-royal-gold/45">
+                  <span class="font-cinzel text-base sm:text-lg font-bold gold-foil-text">🕗 8:00 PM</span>
+                  <span class="urdu-text text-sm text-amber-200 !py-0">رات 8:00 بجے</span>
+                </div>
+                <p class="text-sm sm:text-base text-royal-goldLight/85">📍 SS Marriage Lawn, Bukhari Villas, Multan</p>
+              </div>
+            </div>
+
+            <div class="mt-5 flex items-center justify-between pt-4 border-t border-royal-gold/25">
+              <span class="text-sm font-cinzel tracking-wider text-amber-300 group-hover:translate-x-1 transition">Enter Mehndi Page →</span>
+              <span class="urdu-text text-sm text-amber-200 !py-0">تفصیلات دیکھیں</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Baraat -->
+          <div onclick="switchPage('baraat')" class="group rounded-3xl p-6 sm:p-7 bg-gradient-to-br from-[#470B1D] via-[#270712] to-[#140A16] border border-royal-gold/50 hover:border-royal-gold transition-all duration-500 shadow-2xl relative overflow-hidden flex flex-col justify-between cursor-pointer">
+            <div>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <span class="font-cinzel text-xs tracking-[0.25em] uppercase text-rose-200">Chapter III</span>
+                  <h3 class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold block !py-2">شاہی بارات</h3>
+                  <p class="font-cinzel text-xl text-royal-goldLight">Royal Baraat</p>
+                </div>
+                <div class="w-28 h-36 sm:w-32 sm:h-40 couple-arch-frame shrink-0" data-couple-art="baraat"></div>
+              </div>
+
+              <div class="mt-4 space-y-2 text-royal-goldLight/95 text-base sm:text-lg">
+                <p>📅 Saturday, 12th December 2026</p>
+                <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-xl bg-black/45 border border-royal-gold/45">
+                  <span class="font-cinzel text-base sm:text-lg font-bold gold-foil-text">🕛 12:00 PM</span>
+                  <span class="urdu-text text-sm text-amber-200 !py-0">دوپہر 12:00 بجے</span>
+                </div>
+                <p class="text-sm sm:text-base text-royal-goldLight/85">📍 Grand Venue Marquee, Multan</p>
+              </div>
+            </div>
+
+            <div class="mt-5 flex items-center justify-between pt-4 border-t border-royal-gold/25">
+              <span class="text-sm font-cinzel tracking-wider text-rose-200 group-hover:translate-x-1 transition">Enter Baraat Page →</span>
+              <span class="urdu-text text-sm text-amber-200 !py-0">تفصیلات دیکھیں</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Valeema -->
+          <div onclick="switchPage('valeema')" class="group rounded-3xl p-6 sm:p-7 bg-gradient-to-br from-[#091833] via-[#0B1328] to-[#17112B] border border-royal-gold/50 hover:border-royal-gold transition-all duration-500 shadow-2xl relative overflow-hidden flex flex-col justify-between cursor-pointer">
+            <div>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <span class="font-cinzel text-xs tracking-[0.25em] uppercase text-sky-200">Chapter IV</span>
+                  <h3 class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold block !py-2">دعوتِ ولیمہ</h3>
+                  <p class="font-cinzel text-xl text-royal-goldLight">Grand Valeema</p>
+                </div>
+                <div class="w-28 h-36 sm:w-32 sm:h-40 couple-arch-frame shrink-0" data-couple-art="valeema"></div>
+              </div>
+
+              <div class="mt-4 space-y-2 text-royal-goldLight/95 text-base sm:text-lg">
+                <p>📅 Sunday, 27th December 2026</p>
+                <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-xl bg-black/45 border border-royal-gold/45">
+                  <span class="font-cinzel text-base sm:text-lg font-bold gold-foil-text">🕙 10:00 PM</span>
+                  <span class="urdu-text text-sm text-amber-200 !py-0">رات 10:00 بجے</span>
+                </div>
+                <p class="text-sm sm:text-base text-royal-goldLight/85">📍 Venus Ballroom, Karachi</p>
+              </div>
+            </div>
+
+            <div class="mt-5 flex items-center justify-between pt-4 border-t border-royal-gold/25">
+              <span class="text-sm font-cinzel tracking-wider text-sky-200 group-hover:translate-x-1 transition">Enter Valeema Page →</span>
+              <span class="urdu-text text-sm text-amber-200 !py-0">تفصیلات دیکھیں</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION E: LOCATION & INTERACTIVE ROYAL MAPS -->
+      <section class="reveal-on-scroll max-w-5xl mx-auto">
+        <div class="text-center mb-10">
+          <p class="urdu-text urdu-gold-glow text-3xl sm:text-4xl font-bold">
+            مقاماتِ تقریب
+          </p>
+          <h2 class="font-cinzel text-2xl sm:text-3xl tracking-wider uppercase text-royal-goldLight mt-1">
+            Royal Venues &amp; Directions
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Venue 1: SS Marriage Lawn -->
+          <div class="royal-card rounded-3xl p-6 flex flex-col justify-between border border-royal-gold/45">
+            <div>
+              <!-- Stylized Gold Radar Map Visual -->
+              <div class="h-36 rounded-2xl bg-[#04120F] border border-royal-gold/30 mb-5 relative overflow-hidden flex items-center justify-center">
+                <svg class="w-full h-full opacity-40" viewBox="0 0 200 120">
+                  <path d="M0,30 Q100,10 200,45 M0,85 Q90,105 200,70 M50,0 L70,120 M140,0 L125,120" stroke="#D4AF37" stroke-width="1" fill="none"/>
+                  <circle cx="100" cy="60" r="28" stroke="#D4AF37" stroke-dasharray="3 3" fill="none"/>
+                  <circle cx="100" cy="60" r="46" stroke="#D4AF37" stroke-opacity="0.4" fill="none"/>
+                </svg>
+                <div class="absolute flex flex-col items-center">
+                  <span class="w-4 h-4 rounded-full bg-royal-gold animate-ping absolute"></span>
+                  <span class="w-4 h-4 rounded-full bg-royal-gold relative border-2 border-royal-emerald"></span>
+                  <span class="text-[10px] font-cinzel tracking-widest uppercase bg-black/75 px-2 py-0.5 rounded mt-2 text-royal-goldLight">Multan</span>
+                </div>
+              </div>
+
+              <span class="text-xs font-cinzel tracking-widest uppercase text-royal-gold">Nikaah &amp; Mehndi</span>
+              <h3 class="font-cinzel text-lg font-bold text-royal-goldLight mt-1">SS Marriage Lawn</h3>
+              <p class="text-sm text-royal-goldLight/80 mt-1">Bukhari Villas, Multan</p>
+              <p class="text-xs text-amber-200/80 mt-2">Thu, 10 Dec 2026 • 7:00 PM &amp; 8:00 PM</p>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/cEPrWNJa5QFvTiKb7?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-6 royal-gold-btn w-full py-3 px-4 rounded-xl text-center font-cinzel text-xs font-bold tracking-wider uppercase block"
+            >
+              📍 Open Google Maps
+            </a>
+          </div>
+
+          <!-- Venue 2: Grand Venue Marquee -->
+          <div class="royal-card rounded-3xl p-6 flex flex-col justify-between border border-royal-gold/45">
+            <div>
+              <div class="h-36 rounded-2xl bg-[#1A060D] border border-royal-gold/30 mb-5 relative overflow-hidden flex items-center justify-center">
+                <svg class="w-full h-full opacity-40" viewBox="0 0 200 120">
+                  <path d="M0,60 L200,60 M100,0 L100,120 M20,10 L180,110 M180,10 L20,110" stroke="#D4AF37" stroke-width="1" fill="none"/>
+                  <circle cx="100" cy="60" r="28" stroke="#D4AF37" stroke-dasharray="3 3" fill="none"/>
+                </svg>
+                <div class="absolute flex flex-col items-center">
+                  <span class="w-4 h-4 rounded-full bg-royal-gold animate-ping absolute"></span>
+                  <span class="w-4 h-4 rounded-full bg-royal-gold relative border-2 border-royal-maroon"></span>
+                  <span class="text-[10px] font-cinzel tracking-widest uppercase bg-black/75 px-2 py-0.5 rounded mt-2 text-royal-goldLight">Multan</span>
+                </div>
+              </div>
+
+              <span class="text-xs font-cinzel tracking-widest uppercase text-rose-300">Royal Baraat</span>
+              <h3 class="font-cinzel text-lg font-bold text-royal-goldLight mt-1">Grand Venue Marquee</h3>
+              <p class="text-sm text-royal-goldLight/80 mt-1">Multan, Punjab</p>
+              <p class="text-xs text-amber-200/80 mt-2">Sat, 12 Dec 2026 • 12:00 PM</p>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/ewPUNat1vM26DiDp9?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-6 royal-gold-btn w-full py-3 px-4 rounded-xl text-center font-cinzel text-xs font-bold tracking-wider uppercase block"
+            >
+              📍 Open Google Maps
+            </a>
+          </div>
+
+          <!-- Venue 3: Venus Ballroom Karachi -->
+          <div class="royal-card rounded-3xl p-6 flex flex-col justify-between border border-royal-gold/45">
+            <div>
+              <div class="h-36 rounded-2xl bg-[#071024] border border-royal-gold/30 mb-5 relative overflow-hidden flex items-center justify-center">
+                <svg class="w-full h-full opacity-40" viewBox="0 0 200 120">
+                  <path d="M0,40 Q100,80 200,30 M0,90 Q100,40 200,95 M65,0 L65,120 M135,0 L135,120" stroke="#D4AF37" stroke-width="1" fill="none"/>
+                  <circle cx="100" cy="60" r="28" stroke="#D4AF37" stroke-dasharray="3 3" fill="none"/>
+                </svg>
+                <div class="absolute flex flex-col items-center">
+                  <span class="w-4 h-4 rounded-full bg-royal-gold animate-ping absolute"></span>
+                  <span class="w-4 h-4 rounded-full bg-royal-gold relative border-2 border-royal-navy"></span>
+                  <span class="text-[10px] font-cinzel tracking-widest uppercase bg-black/75 px-2 py-0.5 rounded mt-2 text-royal-goldLight">Karachi</span>
+                </div>
+              </div>
+
+              <span class="text-xs font-cinzel tracking-widest uppercase text-sky-300">Grand Valeema</span>
+              <h3 class="font-cinzel text-lg font-bold text-royal-goldLight mt-1">Venus Ballroom</h3>
+              <p class="text-sm text-royal-goldLight/80 mt-1">Karachi, Sindh</p>
+              <p class="text-xs text-amber-200/80 mt-2">Sun, 27 Dec 2026 • 10:00 PM</p>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/VYuFeb2SA1CAqzrc9?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-6 royal-gold-btn w-full py-3 px-4 rounded-xl text-center font-cinzel text-xs font-bold tracking-wider uppercase block"
+            >
+              📍 Open Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION F: THANK YOU SCREEN & FINAL CLOSING (NO RSVP) -->
+      <section class="reveal-on-scroll max-w-4xl mx-auto text-center">
+        <div class="royal-card rounded-3xl p-8 sm:p-14 border-2 border-royal-gold/60 relative overflow-hidden">
+          <div class="flex items-center justify-center gap-3 mb-5">
+            <span class="h-[1px] w-16 bg-royal-gold/60"></span>
+            <span class="text-royal-gold text-xl">❦</span>
+            <span class="h-[1px] w-16 bg-royal-gold/60"></span>
+          </div>
+
+          <p class="font-cinzel text-xs sm:text-sm tracking-[0.3em] uppercase text-royal-gold mb-3">
+            With Warmest Regards
+          </p>
+
+          <p class="text-xl sm:text-2xl md:text-3xl text-royal-goldLight italic max-w-2xl mx-auto leading-relaxed">
+            “Your presence and prayers will make our celebrations truly memorable.”
+          </p>
+
+          <p class="urdu-text text-2xl sm:text-3xl text-amber-200 mt-3">
+            آپ کی تشریف آوری اور دعائیں ہماری خوشیوں کو دوبالا کر دیں گی
+          </p>
+
+          <!-- Looking Forward -->
+          <div class="mt-8 pt-8 border-t border-royal-gold/30 space-y-3">
+            <p class="font-cinzel text-xs sm:text-sm tracking-[0.25em] uppercase text-royal-gold/90">
+              Looking Forward
+            </p>
+            <p class="urdu-text text-xl sm:text-2xl text-royal-goldLight">
+              جناب تصور حسین و فیملی <span class="text-royal-gold mx-2">•</span> جناب محمد صفدر شاہین و فیملی
+            </p>
+            <p class="text-sm sm:text-base text-royal-goldLight/75">
+              Tassawer Hussain &amp; Family • Muhammad Safdar Shaheen &amp; Family
+            </p>
+          </div>
+
+          <!-- Mandatory Final Invitation Closing -->
+          <div class="mt-8 pt-6 border-t border-royal-gold/30">
+            <p class="urdu-name-display text-3xl sm:text-4xl md:text-5xl font-bold">
+              دونوں خاندانوں کی جانب سے
+            </p>
+            <p class="font-cinzel text-xs tracking-[0.3em] uppercase text-royal-goldLight/70 mt-1">
+              From Both Families
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- DEDICATED CINEMATIC EVENT PAGE 1: NIKAAH (نکاح)                       -->
+  <!-- ===================================================================== -->
+  <section id="page-nikaah" class="view-page min-h-screen pb-32 pt-16 sm:pt-20 px-4 sm:px-6 bg-gradient-to-b from-[#041914] via-[#08241D] to-[#051210]">
+    <div class="max-w-4xl mx-auto">
+      <div class="royal-card rounded-3xl p-7 sm:p-14 text-center border-2 border-royal-gold/60 relative overflow-visible">
+        <span class="inline-block px-4 py-1 rounded-full bg-royal-gold/15 border border-royal-gold/40 font-cinzel text-xs tracking-[0.3em] uppercase text-royal-gold mb-4">
+          Chapter I • Sacred Union
+        </span>
+
+        <!-- Bespoke Couple Illustration for Nikaah -->
+        <div class="w-52 h-64 sm:w-60 sm:h-76 mx-auto my-3 couple-arch-frame animate-float" data-couple-art="nikaah"></div>
+
+        <h1 class="urdu-name-display text-5xl sm:text-6xl font-bold">
+          تقریبِ نکاح
+        </h1>
+        <h2 class="font-cinzel text-2xl sm:text-3xl tracking-widest text-royal-goldLight uppercase mt-1">
+          The Sacred Nikaah
+        </h2>
+
+        <p class="arabic-text text-xl sm:text-2xl text-amber-200/95 max-w-2xl mx-auto mt-6">
+          بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+        </p>
+        <p class="text-sm sm:text-base text-royal-goldLight/75 italic mt-1">
+          “May Allah bless you both, shower His blessings upon you, and unite you in goodness.”
+        </p>
+
+        <!-- Event Details Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 text-center items-stretch">
+          <div class="p-5 rounded-2xl bg-black/35 border border-royal-gold/40 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-royal-gold">Date • تاریخ</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Thursday, 10th Dec 2026</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">جمعرات، 10 دسمبر 2026</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/45 border border-royal-gold/65 flex flex-col justify-center shadow-[0_0_24px_rgba(212,175,55,0.2)]">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-royal-gold">Time • وقت</p>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold gold-foil-text mt-1">7:00 PM</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">شام 7:00 بجے</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/35 border border-royal-gold/40 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-royal-gold">Venue • مقام</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">SS Marriage Lawn</p>
+            <p class="text-sm text-amber-200">Bukhari Villas, Multan</p>
+          </div>
+        </div>
+
+        <!-- Direct Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+          <a
+            href="https://maps.app.goo.gl/cEPrWNJa5QFvTiKb7?g_st=ic"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="royal-gold-btn px-7 py-3.5 rounded-full font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase w-full sm:w-auto"
+          >
+            📍 View SS Marriage Lawn on Maps
+          </a>
+          <button
+            onclick="switchPage('mehndi')"
+            class="px-7 py-3.5 rounded-full border border-royal-gold/60 text-royal-goldLight hover:bg-royal-gold/20 font-cinzel text-xs sm:text-sm tracking-wider uppercase transition w-full sm:w-auto cursor-pointer"
+          >
+            Next Chapter: Mehndi →
+          </button>
+        </div>
+
+        <p class="urdu-name-display text-2xl sm:text-3xl font-bold mt-10 pt-6 border-t border-royal-gold/25">
+          دونوں خاندانوں کی جانب سے
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- DEDICATED CINEMATIC EVENT PAGE 2: MEHNDI (مہندی)                      -->
+  <!-- ===================================================================== -->
+  <section id="page-mehndi" class="view-page min-h-screen pb-32 pt-16 sm:pt-20 px-4 sm:px-6 bg-gradient-to-b from-[#1A240C] via-[#132215] to-[#2B1008]">
+    <div class="max-w-4xl mx-auto">
+      <div class="royal-card rounded-3xl p-7 sm:p-14 text-center border-2 border-amber-400/60 relative overflow-visible">
+        <span class="inline-block px-4 py-1 rounded-full bg-amber-500/15 border border-amber-400/40 font-cinzel text-xs tracking-[0.3em] uppercase text-amber-300 mb-4">
+          Chapter II • Colors, Music &amp; Henna
+        </span>
+
+        <!-- Bespoke Couple Illustration for Mehndi -->
+        <div class="w-52 h-64 sm:w-60 sm:h-76 mx-auto my-3 couple-arch-frame animate-float" data-couple-art="mehndi"></div>
+
+        <h1 class="urdu-name-display text-5xl sm:text-6xl font-bold">
+          رسمِ مہندی
+        </h1>
+        <h2 class="font-cinzel text-2xl sm:text-3xl tracking-widest text-amber-200 uppercase mt-1">
+          Festive Mehndi Night
+        </h2>
+
+        <p class="urdu-text text-xl sm:text-2xl text-royal-goldLight/95 max-w-2xl mx-auto mt-5">
+          رنگوں، پھولوں اور خوشیوں سے سجی ایک یادگار شام
+        </p>
+        <p class="text-base text-royal-goldLight/80 italic">
+          An evening of marigold blooms, traditional melodies, and radiant celebrations
+        </p>
+
+        <!-- Event Details Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 text-center items-stretch">
+          <div class="p-5 rounded-2xl bg-black/35 border border-amber-400/40 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-amber-300">Date • تاریخ</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Thursday, 10th Dec 2026</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">جمعرات، 10 دسمبر 2026</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/45 border border-amber-400/65 flex flex-col justify-center shadow-[0_0_24px_rgba(212,175,55,0.2)]">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-amber-300">Time • وقت</p>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold gold-foil-text mt-1">8:00 PM</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">رات 8:00 بجے</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/35 border border-amber-400/40 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-amber-300">Venue • مقام</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">SS Marriage Lawn</p>
+            <p class="text-sm text-amber-200">Bukhari Villas, Multan</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+          <a
+            href="https://maps.app.goo.gl/cEPrWNJa5QFvTiKb7?g_st=ic"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="royal-gold-btn px-7 py-3.5 rounded-full font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase w-full sm:w-auto"
+          >
+            📍 View SS Marriage Lawn on Maps
+          </a>
+          <button
+            onclick="switchPage('baraat')"
+            class="px-7 py-3.5 rounded-full border border-royal-gold/60 text-royal-goldLight hover:bg-royal-gold/20 font-cinzel text-xs sm:text-sm tracking-wider uppercase transition w-full sm:w-auto cursor-pointer"
+          >
+            Next Chapter: Baraat →
+          </button>
+        </div>
+
+        <p class="urdu-name-display text-2xl sm:text-3xl font-bold mt-10 pt-6 border-t border-royal-gold/25">
+          دونوں خاندانوں کی جانب سے
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- DEDICATED CINEMATIC EVENT PAGE 3: BARAAT (بارات)                      -->
+  <!-- ===================================================================== -->
+  <section id="page-baraat" class="view-page min-h-screen pb-32 pt-16 sm:pt-20 px-4 sm:px-6 bg-gradient-to-b from-[#360715] via-[#210610] to-[#0F0712]">
+    <div class="max-w-4xl mx-auto">
+      <div class="royal-card rounded-3xl p-7 sm:p-14 text-center border-2 border-royal-gold/65 relative overflow-visible">
+        <span class="inline-block px-4 py-1 rounded-full bg-rose-500/15 border border-royal-gold/50 font-cinzel text-xs tracking-[0.3em] uppercase text-rose-200 mb-4">
+          Chapter III • Imperial Procession
+        </span>
+
+        <!-- Bespoke Couple Illustration for Baraat -->
+        <div class="w-52 h-64 sm:w-60 sm:h-76 mx-auto my-3 couple-arch-frame animate-float" data-couple-art="baraat"></div>
+
+        <h1 class="urdu-name-display text-5xl sm:text-6xl font-bold">
+          شاہی بارات
+        </h1>
+        <h2 class="font-cinzel text-2xl sm:text-3xl tracking-widest text-rose-100 uppercase mt-1">
+          The Grand Baraat
+        </h2>
+
+        <p class="urdu-text text-xl sm:text-2xl text-royal-goldLight/95 max-w-2xl mx-auto mt-5">
+          عزیزم محمد انس کی باراتِ سعید کا پُروقار استقبال
+        </p>
+        <p class="text-base text-royal-goldLight/80 italic">
+          Welcoming the royal procession of Muhammad Anas as two hearts unite forever
+        </p>
+
+        <!-- Event Details Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 text-center items-stretch">
+          <div class="p-5 rounded-2xl bg-black/40 border border-royal-gold/45 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-rose-200">Date • تاریخ</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Saturday, 12th Dec 2026</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">ہفتہ، 12 دسمبر 2026</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/45 border border-royal-gold/65 flex flex-col justify-center shadow-[0_0_24px_rgba(212,175,55,0.2)]">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-rose-200">Time • وقت</p>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold gold-foil-text mt-1">12:00 PM</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">دوپہر 12:00 بجے</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/40 border border-royal-gold/45 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-rose-200">Venue • مقام</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Grand Venue Marquee</p>
+            <p class="text-sm text-amber-200">Multan</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+          <a
+            href="https://maps.app.goo.gl/ewPUNat1vM26DiDp9?g_st=ic"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="royal-gold-btn px-7 py-3.5 rounded-full font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase w-full sm:w-auto"
+          >
+            📍 View Grand Venue Marquee on Maps
+          </a>
+          <button
+            onclick="switchPage('valeema')"
+            class="px-7 py-3.5 rounded-full border border-royal-gold/60 text-royal-goldLight hover:bg-royal-gold/20 font-cinzel text-xs sm:text-sm tracking-wider uppercase transition w-full sm:w-auto cursor-pointer"
+          >
+            Next Chapter: Valeema →
+          </button>
+        </div>
+
+        <p class="urdu-name-display text-2xl sm:text-3xl font-bold mt-10 pt-6 border-t border-royal-gold/25">
+          دونوں خاندانوں کی جانب سے
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- DEDICATED CINEMATIC EVENT PAGE 4: VALEEMA (ولیمہ)                     -->
+  <!-- ===================================================================== -->
+  <section id="page-valeema" class="view-page min-h-screen pb-32 pt-16 sm:pt-20 px-4 sm:px-6 bg-gradient-to-b from-[#071329] via-[#0B1733] to-[#120D24]">
+    <div class="max-w-4xl mx-auto">
+      <div class="royal-card rounded-3xl p-7 sm:p-14 text-center border-2 border-royal-gold/60 relative overflow-visible">
+        <span class="inline-block px-4 py-1 rounded-full bg-sky-500/15 border border-royal-gold/50 font-cinzel text-xs tracking-[0.3em] uppercase text-sky-200 mb-4">
+          Chapter IV • Royal Reception
+        </span>
+
+        <!-- Bespoke Couple Illustration for Valeema -->
+        <div class="w-52 h-64 sm:w-60 sm:h-76 mx-auto my-3 couple-arch-frame animate-float" data-couple-art="valeema"></div>
+
+        <h1 class="urdu-name-display text-5xl sm:text-6xl font-bold">
+          دعوتِ ولیمہ
+        </h1>
+        <h2 class="font-cinzel text-2xl sm:text-3xl tracking-widest text-sky-100 uppercase mt-1">
+          The Grand Valeema Reception
+        </h2>
+
+        <p class="urdu-text text-xl sm:text-2xl text-royal-goldLight/95 max-w-2xl mx-auto mt-5">
+          نوبیاہتا جوڑے کے اعزاز میں پُرتکلف دعوتِ ولیمہ
+        </p>
+        <p class="text-base text-royal-goldLight/80 italic">
+          A starlit evening reception celebrating the newlyweds in Karachi
+        </p>
+
+        <!-- Event Details Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 text-center items-stretch">
+          <div class="p-5 rounded-2xl bg-black/40 border border-royal-gold/45 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-sky-200">Date • تاریخ</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Sunday, 27th Dec 2026</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">اتوار، 27 دسمبر 2026</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/45 border border-royal-gold/65 flex flex-col justify-center shadow-[0_0_24px_rgba(212,175,55,0.2)]">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-sky-200">Time • وقت</p>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold gold-foil-text mt-1">10:00 PM</p>
+            <p class="urdu-text text-base text-amber-200 !py-1">رات 10:00 بجے</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/40 border border-royal-gold/45 flex flex-col justify-center">
+            <p class="font-cinzel text-xs uppercase tracking-widest text-sky-200">Venue • مقام</p>
+            <p class="font-cormorant text-xl font-bold text-royal-goldLight mt-1">Venus Ballroom</p>
+            <p class="text-sm text-amber-200">Karachi</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+          <a
+            href="https://maps.app.goo.gl/VYuFeb2SA1CAqzrc9?g_st=ic"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="royal-gold-btn px-7 py-3.5 rounded-full font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase w-full sm:w-auto"
+          >
+            📍 View Venus Ballroom on Maps
+          </a>
+          <button
+            onclick="switchPage('home')"
+            class="px-7 py-3.5 rounded-full border border-royal-gold/60 text-royal-goldLight hover:bg-royal-gold/20 font-cinzel text-xs sm:text-sm tracking-wider uppercase transition w-full sm:w-auto cursor-pointer"
+          >
+            ← Return to Main Invitation
+          </button>
+        </div>
+
+        <p class="urdu-name-display text-2xl sm:text-3xl font-bold mt-10 pt-6 border-t border-royal-gold/25">
+          دونوں خاندانوں کی جانب سے
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT: RELIABLE HTML5 AUDIO ENGINE, BESPOKE PORTRAITS & VIEWS    -->
+  <!-- ===================================================================== -->
+  <script>
+    // -----------------------------------------------------------------------
+    // 1. RELIABLE HTML5 AUDIO + WEB AUDIO ROMANTIC INSTRUMENTAL GENERATOR
+    // -----------------------------------------------------------------------
+    let isPlaying = false;
+    let audioBlobUrl = null;
+    const bgAudioEl = document.getElementById('bg-wedding-audio');
+
+    /**
+     * Synthesizes a lush 16-second stereo PCM WAV loop of a romantic wedding
+     * piano & warm harp/string melody so native HTML5 <audio> plays reliably
+     * on mobile and desktop browsers without silent Web Audio issues.
+     */
+    function buildRomanticWavBlob() {
+      const sampleRate = 22050;
+      const durationSec = 16.0;
+      const numSamples = Math.floor(sampleRate * durationSec);
+      const numChannels = 2;
+      const bytesPerSample = 2;
+      const blockAlign = numChannels * bytesPerSample;
+      const dataSize = numSamples * blockAlign;
+      const buffer = new ArrayBuffer(44 + dataSize);
+      const view = new DataView(buffer);
+
+      function writeStr(offset, str) {
+        for (let i = 0; i < str.length; i++) {
+          view.setUint8(offset + i, str.charCodeAt(i));
+        }
+      }
+
+      // Standard RIFF/WAV header
+      writeStr(0, 'RIFF');
+      view.setUint32(4, 36 + dataSize, true);
+      writeStr(8, 'WAVE');
+      writeStr(12, 'fmt ');
+      view.setUint32(16, 16, true);
+      view.setUint16(20, 1, true); // PCM
+      view.setUint16(22, numChannels, true);
+      view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * blockAlign, true);
+      view.setUint16(32, blockAlign, true);
+      view.setUint16(34, 16, true);
+      writeStr(36, 'data');
+      view.setUint32(40, dataSize, true);
+
+      // Romantic D Major -> B Minor -> G Major -> A Major progression (8 bars x 2.0s)
+      const bars = [
+        { bass: 146.83, arp: [293.66, 369.99, 440.00, 587.33], lead: [[0.0, 587.33, 1.0], [1.0, 659.25, 1.0]] },
+        { bass: 123.47, arp: [246.94, 293.66, 369.99, 493.88], lead: [[0.0, 587.33, 1.0], [1.0, 493.88, 1.0]] },
+        { bass: 98.00,  arp: [196.00, 246.94, 293.66, 392.00], lead: [[0.0, 440.00, 1.0], [1.0, 392.00, 1.0]] },
+        { bass: 110.00, arp: [220.00, 277.18, 329.63, 440.00], lead: [[0.0, 440.00, 1.0], [1.0, 493.88, 1.0]] },
+        { bass: 146.83, arp: [293.66, 369.99, 440.00, 587.33], lead: [[0.0, 739.99, 1.0], [1.0, 659.25, 1.0]] },
+        { bass: 123.47, arp: [246.94, 369.99, 493.88, 587.33], lead: [[0.0, 587.33, 1.0], [1.0, 554.37, 1.0]] },
+        { bass: 98.00,  arp: [196.00, 246.94, 293.66, 392.00], lead: [[0.0, 493.88, 1.0], [1.0, 440.00, 1.0]] },
+        { bass: 110.00, arp: [220.00, 329.63, 440.00, 554.37], lead: [[0.0, 369.99, 0.9], [0.9, 440.00, 1.1]] }
+      ];
+
+      const leftBuf = new Float32Array(numSamples);
+      const rightBuf = new Float32Array(numSamples);
+
+      function addNote(freq, startSec, durSec, amp, pan) {
+        const startIdx = Math.floor(startSec * sampleRate);
+        const endIdx = Math.min(numSamples, Math.floor((startSec + durSec) * sampleRate));
+        const lGain = amp * (1 - pan * 0.35);
+        const rGain = amp * (1 + pan * 0.35);
+
+        for (let i = startIdx; i < endIdx; i++) {
+          const t = (i - startIdx) / sampleRate;
+          const attack = Math.min(1, t / 0.035);
+          const decay = Math.exp(-t * 2.1);
+          const env = attack * decay;
+          const w = 2 * Math.PI * freq * t;
+          // Warm piano/harp harmonic blend
+          const wave = Math.sin(w) + 0.32 * Math.sin(2 * w) + 0.1 * Math.sin(3 * w);
+          const sample = wave * env;
+          leftBuf[i] += sample * lGain;
+          rightBuf[i] += sample * rGain;
+        }
+      }
+
+      bars.forEach((bar, barIdx) => {
+        const barStart = barIdx * 2.0;
+        // Warm bass note
+        addNote(bar.bass, barStart, 2.1, 0.22, 0.0);
+        // Gentle harp arpeggio
+        bar.arp.forEach((f, idx) => {
+          addNote(f, barStart + idx * 0.42, 1.75, 0.16, idx % 2 === 0 ? -0.4 : 0.4);
+        });
+        // Expressive lead melody
+        bar.lead.forEach(([offset, f, d]) => {
+          addNote(f, barStart + offset, d + 0.55, 0.28, 0.15);
+        });
+      });
+
+      // Add lush stereo concert-hall echo & normalize
+      const delaySamples = Math.floor(0.36 * sampleRate);
+      let offset = 44;
+      for (let i = 0; i < numSamples; i++) {
+        if (i >= delaySamples) {
+          leftBuf[i] += rightBuf[i - delaySamples] * 0.30;
+          rightBuf[i] += leftBuf[i - delaySamples] * 0.30;
+        }
+        // Soft cross-loop fade at edges so 16s loop is seamless
+        const edgeFade = Math.min(1, i / (0.08 * sampleRate), (numSamples - i) / (0.08 * sampleRate));
+        const lSample = Math.max(-0.95, Math.min(0.95, leftBuf[i] * edgeFade));
+        const rSample = Math.max(-0.95, Math.min(0.95, rightBuf[i] * edgeFade));
+        view.setInt16(offset, lSample * 32767, true);
+        view.setInt16(offset + 2, rSample * 32767, true);
+        offset += 4;
+      }
+
+      const blob = new Blob([buffer], { type: 'audio/wav' });
+      return URL.createObjectURL(blob);
+    }
+
+    function ensureAudioLoaded() {
+      if (!audioBlobUrl) {
+        audioBlobUrl = buildRomanticWavBlob();
+        bgAudioEl.src = audioBlobUrl;
+        bgAudioEl.volume = 0.92;
+      }
+    }
+
+    function startMusic() {
+      try {
+        ensureAudioLoaded();
+        const playPromise = bgAudioEl.play();
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              isPlaying = true;
+              updateMusicUI();
+            })
+            .catch(err => {
+              console.warn('Autoplay waiting for direct gesture:', err);
+              isPlaying = false;
+              updateMusicUI();
+            });
+        } else {
+          isPlaying = true;
+          updateMusicUI();
+        }
+      } catch (e) {
+        console.warn('Audio error:', e);
+      }
+    }
+
+    function stopMusic() {
+      bgAudioEl.pause();
+      isPlaying = false;
+      updateMusicUI();
+    }
+
+    function toggleMusic() {
+      if (isPlaying && !bgAudioEl.paused) {
+        stopMusic();
+      } else {
+        startMusic();
+      }
+    }
+
+    function updateMusicUI() {
+      const btn = document.getElementById('music-toggle-btn');
+      const label = document.getElementById('music-label');
+      if (isPlaying && !bgAudioEl.paused) {
+        btn.classList.add('playing');
+        label.textContent = 'Music On • میوزک جاری';
+      } else {
+        btn.classList.remove('playing');
+        label.textContent = 'Music Off • میوزک';
+      }
+    }
+
+    bgAudioEl.addEventListener('play', () => { isPlaying = true; updateMusicUI(); });
+    bgAudioEl.addEventListener('pause', () => { isPlaying = false; updateMusicUI(); });
+
+    // -----------------------------------------------------------------------
+    // 2. BESPOKE FULL-COLOR ROYAL COUPLE PORTRAITS FOR ALL 4 EVENTS
+    // -----------------------------------------------------------------------
+    const couplePortraitsSVG = {
+      // 1) NIKAAH: Ivory-white & gold bridal attire + groom in white shalwar kameez & olive waistcoat
+      nikaah: `
+        <svg viewBox="0 0 260 320" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="nkBg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FDF8EE"/>
+              <stop offset="100%" stop-color="#EFE0C2"/>
+            </linearGradient>
+            <linearGradient id="nkGold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#B88928"/>
+              <stop offset="50%" stop-color="#F3DC96"/>
+              <stop offset="100%" stop-color="#9A6E18"/>
+            </linearGradient>
+            <linearGradient id="oliveVest" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#535D2E"/>
+              <stop offset="100%" stop-color="#353D1B"/>
+            </linearGradient>
+          </defs>
+          <rect width="260" height="320" fill="url(#nkBg)"/>
+          <!-- Soft Mughal Arch Backdrop -->
+          <path d="M25,310 L25,115 Q25,25 130,18 Q235,25 235,115 L235,310 Z" fill="none" stroke="url(#nkGold)" stroke-width="1.5" opacity="0.55"/>
+
+          <!-- GROOM (Right, White Shalwar Kameez + Olive Waistcoat) -->
+          <g transform="translate(132, 32)">
+            <!-- Head & Hair -->
+            <ellipse cx="44" cy="34" rx="16" ry="20" fill="#E6B48F"/>
+            <path d="M28,32 Q28,11 45,11 Q61,11 60,32 Q55,21 44,21 Q33,21 28,32 Z" fill="#3B231A"/>
+            <!-- White Kurta & Trousers -->
+            <path d="M18,62 Q44,54 70,62 L76,188 L12,188 Z" fill="#FFFFFF" stroke="#E2D9C8" stroke-width="1"/>
+            <rect x="20" y="186" width="21" height="82" rx="4" fill="#FAF8F4" stroke="#E2D9C8"/>
+            <rect x="46" y="186" width="21" height="82" rx="4" fill="#FAF8F4" stroke="#E2D9C8"/>
+            <!-- Olive Green Brocade Waistcoat -->
+            <path d="M20,60 L68,60 L72,146 L16,146 Z" fill="url(#oliveVest)"/>
+            <path d="M20,60 L68,60 L72,146 L16,146 Z" fill="none" stroke="url(#nkGold)" stroke-width="1.2"/>
+            <!-- Shoes -->
+            <ellipse cx="30" cy="270" rx="12" ry="5" fill="#C8B69E"/>
+            <ellipse cx="57" cy="270" rx="12" ry="5" fill="#C8B69E"/>
+          </g>
+
+          <!-- Crimson Dupatta Hint Between Couple -->
+          <path d="M138,115 Q154,195 176,275 L156,278 Q138,200 128,125 Z" fill="#8E192E"/>
+
+          <!-- BRIDE (Left, Back View White & Gold Bridal Lehnga + Sheer Veil) -->
+          <g transform="translate(24, 48)">
+            <!-- Bridal Bun & Sheeshpatti -->
+            <circle cx="84" cy="32" r="16" fill="#3D261D"/>
+            <path d="M68,28 Q84,18 100,28" fill="none" stroke="url(#nkGold)" stroke-width="3"/>
+            <!-- Flowing White & Gold Lehnga Train -->
+            <path d="M58,144 L110,144 Q138,225 164,256 Q105,272 22,256 Q42,215 58,144 Z" fill="#FFFFFF" stroke="url(#nkGold)" stroke-width="2"/>
+            <!-- Chevron Gold Border on Train -->
+            <path d="M30,248 L48,224 L66,248 L84,224 L102,248 L120,224 L138,248 L154,232" fill="none" stroke="#C5A358" stroke-width="1.4"/>
+            <path d="M22,256 Q95,272 164,256" fill="none" stroke="url(#nkGold)" stroke-width="5"/>
+            <!-- White Embroidered Kurti -->
+            <path d="M60,60 L108,60 L113,146 L55,146 Z" fill="#FFFDF9" stroke="url(#nkGold)" stroke-width="1.8"/>
+            <line x1="56" y1="141" x2="112" y2="141" stroke="url(#nkGold)" stroke-width="5"/>
+            <!-- Sheer Gold-Scalloped Bridal Veil -->
+            <path d="M66,26 Q84,12 102,26 L116,138 Q84,158 56,134 Z" fill="#FFFFFF" fill-opacity="0.72" stroke="url(#nkGold)" stroke-width="2.5"/>
+            <!-- Gold Motifs on Veil -->
+            <circle cx="84" cy="68" r="2.5" fill="#D4AF37"/>
+            <circle cx="74" cy="94" r="2.5" fill="#D4AF37"/>
+            <circle cx="94" cy="94" r="2.5" fill="#D4AF37"/>
+            <circle cx="84" cy="118" r="2.5" fill="#D4AF37"/>
+          </g>
+        </svg>
+      `,
+
+      // 2) MEHNDI: Festive Emerald Green & Crimson Pink Attire under Marigold Garlands
+      mehndi: `
+        <svg viewBox="0 0 260 320" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="mhBg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FFF3D6"/>
+              <stop offset="100%" stop-color="#F7DFAC"/>
+            </linearGradient>
+            <linearGradient id="mhGreen" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#0E6B47"/>
+              <stop offset="100%" stop-color="#073D28"/>
+            </linearGradient>
+            <linearGradient id="mhPink" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#D81B60"/>
+              <stop offset="100%" stop-color="#880E4F"/>
+            </linearGradient>
+          </defs>
+          <rect width="260" height="320" fill="url(#mhBg)"/>
+
+          <!-- Hanging Marigold (Genda) Floral Garlands -->
+          <path d="M0,15 Q65,75 130,15 Q195,75 260,15" fill="none" stroke="#F59E0B" stroke-width="7" stroke-dasharray="6 4"/>
+          <path d="M0,30 Q65,92 130,30 Q195,92 260,30" fill="none" stroke="#FBBF24" stroke-width="5" stroke-dasharray="5 5"/>
+          <circle cx="42" cy="48" r="5" fill="#EA580C"/>
+          <circle cx="92" cy="46" r="5" fill="#F59E0B"/>
+          <circle cx="172" cy="46" r="5" fill="#EA580C"/>
+          <circle cx="218" cy="48" r="5" fill="#F59E0B"/>
+
+          <!-- GROOM (Right, Emerald Green Kurta + Red Dupatta) -->
+          <g transform="translate(132, 46)">
+            <!-- Face & Hair -->
+            <path d="M26,44 Q24,14 48,14 Q70,14 68,48 Q64,66 44,68 Q28,66 26,44 Z" fill="#F2C39E"/>
+            <path d="M24,42 Q20,10 50,10 Q74,10 72,38 Q62,24 44,26 Q32,28 24,42 Z" fill="#23140E"/>
+            <!-- Beard & Smile -->
+            <path d="M27,48 Q30,66 46,67 Q56,66 56,56 Q44,60 27,48 Z" fill="#2D1B14"/>
+            <path d="M31,52 Q36,56 41,53" fill="none" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"/>
+            <!-- Emerald Kurta -->
+            <path d="M16,82 Q48,70 80,82 L88,265 L10,265 Z" fill="url(#mhGreen)"/>
+            <path d="M16,82 Q48,70 80,82" fill="none" stroke="#FBBF24" stroke-width="2.5"/>
+          </g>
+
+          <!-- Festive Red & Gold Dupatta Draped Between Them -->
+          <path d="M148,118 Q128,195 136,315 L164,315 Q154,195 174,122 Z" fill="#C81E32" stroke="#FBBF24" stroke-width="1.5"/>
+
+          <!-- BRIDE (Left, Emerald & Rani Pink Mehndi Lehnga + Floral Jewelry) -->
+          <g transform="translate(22, 78)">
+            <!-- Long Flowing Hair & Maang Tikka -->
+            <path d="M40,42 Q32,12 64,12 Q92,14 90,46 L96,135 L32,135 Z" fill="#361E14"/>
+            <ellipse cx="66" cy="42" rx="19" ry="23" fill="#F7CAA8"/>
+            <circle cx="76" cy="24" r="4" fill="#10B981" stroke="#FBBF24" stroke-width="1.5"/>
+            <circle cx="52" cy="52" r="5" fill="#10B981" stroke="#FBBF24" stroke-width="1.5"/>
+            <!-- Blush & Smile -->
+            <circle cx="76" cy="48" r="4" fill="#FB7185" opacity="0.45"/>
+            <path d="M74,53 Q79,57 84,53" fill="none" stroke="#BE123C" stroke-width="1.6" stroke-linecap="round"/>
+            <!-- Emerald & Crimson Lehnga -->
+            <path d="M36,76 L92,76 L114,235 L16,235 Z" fill="url(#mhGreen)" stroke="#FBBF24" stroke-width="2"/>
+            <path d="M48,76 L80,76 L92,235 L36,235 Z" fill="url(#mhPink)"/>
+            <!-- Gold Gota Embroidery Lines -->
+            <line x1="48" y1="76" x2="36" y2="235" stroke="#FDE047" stroke-width="2.5" stroke-dasharray="4 3"/>
+            <line x1="80" y1="76" x2="92" y2="235" stroke="#FDE047" stroke-width="2.5" stroke-dasharray="4 3"/>
+            <!-- Bride's Hand Holding Groom's Dupatta -->
+            <path d="M74,94 L112,102 L110,114 L70,110 Z" fill="#F7CAA8"/>
+            <circle cx="104" cy="106" r="4" fill="#10B981" stroke="#FBBF24" stroke-width="1"/>
+          </g>
+        </svg>
+      `,
+
+      // 3) BARAAT: Cream-Gold Sherwani & Maroon Turban + Deep Maroon Bridal Lehenga & Rose Bouquet
+      baraat: `
+        <svg viewBox="0 0 260 320" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="brBg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#F7DFC8"/>
+              <stop offset="100%" stop-color="#E7C29E"/>
+            </linearGradient>
+            <linearGradient id="maroonRoyal" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#7B132B"/>
+              <stop offset="100%" stop-color="#450816"/>
+            </linearGradient>
+            <linearGradient id="sherwaniCream" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FDF8EE"/>
+              <stop offset="100%" stop-color="#EDE0C9"/>
+            </linearGradient>
+          </defs>
+          <rect width="260" height="320" fill="url(#brBg)"/>
+
+          <!-- GROOM (Left, Cream Sherwani + Maroon Turban/Kalgi + Maroon Shawl) -->
+          <g transform="translate(26, 22)">
+            <!-- Royal Maroon Turban & Kalgi Feather -->
+            <path d="M52,32 L68,2 L78,6 L64,34 Z" fill="#680E23"/>
+            <ellipse cx="48" cy="44" rx="22" ry="15" fill="url(#maroonRoyal)" stroke="#D4AF37" stroke-width="1.5"/>
+            <path d="M28,44 Q48,36 68,44" fill="none" stroke="#F6E6B4" stroke-width="2"/>
+            <!-- Groom Face & Beard -->
+            <path d="M32,52 Q32,78 50,79 Q66,78 66,52 Z" fill="#E8B690"/>
+            <path d="M34,64 Q42,78 58,77 Q65,74 65,62 Q54,68 34,64 Z" fill="#23140E"/>
+            <!-- Cream Sherwani & White Trousers -->
+            <rect x="30" y="205" width="16" height="68" rx="4" fill="#FFFFFF"/>
+            <rect x="50" y="205" width="16" height="68" rx="4" fill="#FFFFFF"/>
+            <path d="M22,86 Q48,78 74,86 L80,210 L18,210 Z" fill="url(#sherwaniCream)" stroke="#D4AF37" stroke-width="1.5"/>
+            <!-- Gold Shoulder Embroidery -->
+            <path d="M22,86 Q48,96 74,86 L72,114 Q48,120 24,114 Z" fill="#D4AF37" opacity="0.35"/>
+            <!-- Draped Maroon Velvet Shawl -->
+            <path d="M18,95 L42,145 L82,135 L86,188 L12,184 Z" fill="url(#maroonRoyal)"/>
+          </g>
+
+          <!-- BRIDE (Right, Deep Maroon Bridal Lehenga & Veil) -->
+          <g transform="translate(96, 62)">
+            <!-- Face & Bridal Jewelry -->
+            <ellipse cx="38" cy="36" rx="16" ry="20" fill="#ECC09E"/>
+            <path d="M26,22 Q40,14 54,28 L52,44 Q42,26 26,22 Z" fill="#23140E"/>
+            <circle cx="44" cy="40" r="4" fill="#D4AF37"/>
+            <!-- Flowing Maroon Bridal Veil & Lehenga Skirt -->
+            <path d="M32,14 Q58,16 66,46 L142,226 Q85,244 6,228 L24,122 Z" fill="url(#maroonRoyal)" stroke="#D4AF37" stroke-width="1.8"/>
+            <!-- Intricate Gold Zardozi Lace Pattern -->
+            <path d="M10,216 Q75,232 136,216" fill="none" stroke="#F6E6B4" stroke-width="3" stroke-dasharray="4 3"/>
+            <path d="M22,155 Q62,165 98,155" fill="none" stroke="#D4AF37" stroke-width="1.8" stroke-dasharray="3 3"/>
+            <circle cx="52" cy="185" r="3" fill="#F6E6B4"/>
+            <circle cx="76" cy="195" r="3" fill="#F6E6B4"/>
+            <circle cx="98" cy="204" r="3" fill="#F6E6B4"/>
+          </g>
+
+          <!-- Shared Red & Pink Rose Bouquet Held Together -->
+          <g transform="translate(88, 128)">
+            <circle cx="12" cy="12" r="7" fill="#9F1239"/>
+            <circle cx="24" cy="10" r="7" fill="#E11D48"/>
+            <circle cx="34" cy="15" r="6" fill="#FDA4AF"/>
+            <circle cx="18" cy="20" r="7" fill="#BE123C"/>
+            <circle cx="28" cy="21" r="6" fill="#881337"/>
+            <rect x="17" y="25" width="12" height="10" rx="2" fill="#D4AF37"/>
+          </g>
+        </svg>
+      `,
+
+      // 4) VALEEMA: Champagne-Beige Tuxedo Suit & Champagne-Gold Bridal Gown
+      valeema: `
+        <svg viewBox="0 0 260 320" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="vlBg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FAF6F0"/>
+              <stop offset="100%" stop-color="#EDE3D5"/>
+            </linearGradient>
+            <linearGradient id="suitBeige" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#DFCBB2"/>
+              <stop offset="100%" stop-color="#C5AD91"/>
+            </linearGradient>
+            <linearGradient id="gownGold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#D29E63"/>
+              <stop offset="50%" stop-color="#E8C28E"/>
+              <stop offset="100%" stop-color="#B07A42"/>
+            </linearGradient>
+          </defs>
+          <rect width="260" height="320" fill="url(#vlBg)"/>
+
+          <!-- GROOM (Left, Champagne-Beige Tailored Suit Kissing Bride's Forehead) -->
+          <g transform="translate(22, 16)">
+            <!-- Hair & Profile -->
+            <path d="M36,36 Q34,8 62,8 Q84,8 82,32 Q68,22 52,24 Q42,26 36,36 Z" fill="#231712"/>
+            <path d="M40,28 L84,32 L82,58 Q62,64 42,54 Z" fill="#DFA782"/>
+            <path d="M62,54 Q74,62 83,54 L81,46 Q72,52 62,54 Z" fill="#231712"/>
+            <!-- Beige Suit Jacket & Trousers -->
+            <path d="M26,68 Q56,60 82,72 L96,178 L20,178 Z" fill="url(#suitBeige)" stroke="#B59B7E" stroke-width="1.2"/>
+            <path d="M28,176 L88,176 L84,296 L32,296 Z" fill="#D5C0A6"/>
+            <!-- Groom's Arm Embracing Bride -->
+            <path d="M42,88 L64,158 L112,164 L110,182 L44,178 Z" fill="#D7C1A6" stroke="#B59B7E" stroke-width="1"/>
+            <ellipse cx="116" cy="173" rx="9" ry="7" fill="#DFA782"/>
+          </g>
+
+          <!-- BRIDE (Right, Champagne-Gold Embroidered Gown & Sheer Gold Veil) -->
+          <g transform="translate(86, 44)">
+            <!-- Face in Tender Profile -->
+            <ellipse cx="32" cy="36" rx="16" ry="21" fill="#E6B28E"/>
+            <path d="M24,18 Q44,14 54,36 L48,52 Q36,28 24,18 Z" fill="#231712"/>
+            <!-- Gold Choker & Jhumka -->
+            <circle cx="42" cy="40" r="5" fill="#D4AF37"/>
+            <path d="M24,56 L46,56" stroke="#D4AF37" stroke-width="4"/>
+            <!-- Champagne-Gold Bridal Gown -->
+            <path d="M18,64 L56,64 L132,268 L4,268 Z" fill="url(#gownGold)" stroke="#F6E6B4" stroke-width="1.5"/>
+            <!-- Delicate Pearl & Gold Embroidery Dots -->
+            <circle cx="34" cy="110" r="2" fill="#FFF"/>
+            <circle cx="46" cy="135" r="2" fill="#FFF"/>
+            <circle cx="28" cy="160" r="2" fill="#FFF"/>
+            <circle cx="54" cy="185" r="2.5" fill="#FFF"/>
+            <circle cx="38" cy="215" r="2.5" fill="#FFF"/>
+            <circle cx="68" cy="235" r="2.5" fill="#FFF"/>
+            <!-- Translucent Champagne Veil -->
+            <path d="M36,14 Q62,16 74,48 L164,268 L94,268 L44,72 Z" fill="#F3DFC1" fill-opacity="0.65" stroke="#D4AF37" stroke-width="2" stroke-dasharray="5 3"/>
+            <!-- Henna-Adorned Hand on Groom's Chest -->
+            <path d="M22,82 L6,66 L14,60 L34,76 Z" fill="#E6B28E"/>
+            <path d="M7,66 L13,62" stroke="#881337" stroke-width="2"/>
+          </g>
+        </svg>
+      `
+    };
+
+    function renderCouplePortraits() {
+      document.querySelectorAll('[data-couple-art]').forEach(container => {
+        const key = container.getAttribute('data-couple-art');
+        if (couplePortraitsSVG[key]) {
+          container.innerHTML = couplePortraitsSVG[key];
+        }
+      });
+    }
+
+    // -----------------------------------------------------------------------
+    // 3. FLORAL OPENING REVEAL & BURST PETALS
+    // -----------------------------------------------------------------------
+    function openInvitation() {
+      const curtain = document.getElementById('opening-curtain');
+      curtain.classList.add('revealed');
+      startMusic();
+      spawnBurstParticles(65);
+      setTimeout(() => {
+        triggerScrollReveals();
+      }, 450);
+    }
+
+    function replayOpening() {
+      const curtain = document.getElementById('opening-curtain');
+      curtain.classList.remove('revealed');
+    }
+
+    // -----------------------------------------------------------------------
+    // 4. FOUR SEPARATE CINEMATIC EVENT PAGES SWITCHER
+    // -----------------------------------------------------------------------
+    function switchPage(pageId) {
+      // Hide all pages
+      document.querySelectorAll('.view-page').forEach(el => {
+        el.classList.remove('active-view');
+      });
+
+      // Show selected page
+      const target = document.getElementById('page-' + pageId);
+      if (target) {
+        target.classList.add('active-view');
+      }
+
+      // Update Navigation Pills
+      document.querySelectorAll('.nav-pill').forEach(pill => {
+        pill.classList.remove('bg-royal-gold', 'text-royal-emerald', 'font-bold');
+        pill.classList.add('text-royal-goldLight', 'hover:bg-royal-gold/20');
+      });
+
+      const activePill = document.getElementById('nav-' + pageId);
+      if (activePill) {
+        activePill.classList.add('bg-royal-gold', 'text-royal-emerald', 'font-bold');
+        activePill.classList.remove('text-royal-goldLight', 'hover:bg-royal-gold/20');
+      }
+
+      // Smooth scroll to top & emit golden shimmer burst
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      spawnBurstParticles(28);
+      setTimeout(() => {
+        triggerScrollReveals();
+      }, 150);
+    }
+
+    // -----------------------------------------------------------------------
+    // 5. LUXURY GOLDEN COUNTDOWN TIMER
+    // -----------------------------------------------------------------------
+    let targetDate = new Date('2026-12-10T19:00:00+05:00').getTime();
+
+    function setCountdownTarget(isoDateStr, labelText, btnElement) {
+      targetDate = new Date(isoDateStr).getTime();
+      document.getElementById('countdown-subtitle').textContent = 'Counting down to ' + labelText;
+
+      document.querySelectorAll('.cd-tab').forEach(tab => {
+        tab.classList.remove('bg-royal-gold', 'text-royal-emerald', 'font-bold');
+        tab.classList.add('border', 'border-royal-gold/40', 'text-royal-goldLight');
+      });
+
+      if (btnElement) {
+        btnElement.classList.add('bg-royal-gold', 'text-royal-emerald', 'font-bold');
+        btnElement.classList.remove('border', 'border-royal-gold/40', 'text-royal-goldLight');
+      }
+
+      updateCountdown();
+    }
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance <= 0) {
+        document.getElementById('cd-days').textContent = '00';
+        document.getElementById('cd-hours').textContent = '00';
+        document.getElementById('cd-minutes').textContent = '00';
+        document.getElementById('cd-seconds').textContent = '00';
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+      document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+      document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+      document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // -----------------------------------------------------------------------
+    // 5. FULL-PAGE AMBIENT GOLDEN DUST & ROSE PETAL CANVAS ANIMATION
+    // -----------------------------------------------------------------------
+    const canvas = document.getElementById('ambient-canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    class Particle {
+      constructor(burst = false) {
+        this.reset(burst);
+      }
+
+      reset(burst = false) {
+        this.x = burst ? canvas.width / 2 + (Math.random() - 0.5) * 200 : Math.random() * canvas.width;
+        this.y = burst ? canvas.height / 2 + (Math.random() - 0.5) * 150 : Math.random() * canvas.height;
+        this.isPetal = Math.random() > 0.72;
+        this.size = this.isPetal ? Math.random() * 5 + 4 : Math.random() * 2.5 + 0.8;
+        this.vx = burst ? (Math.random() - 0.5) * 6 : (Math.random() - 0.5) * 0.55;
+        this.vy = burst ? (Math.random() - 0.5) * 6 : Math.random() * 0.65 + 0.25;
+        this.alpha = Math.random() * 0.65 + 0.25;
+        this.angle = Math.random() * Math.PI * 2;
+        this.spin = (Math.random() - 0.5) * 0.03;
+      }
+
+      update() {
+        this.x += this.vx + Math.sin(this.angle) * 0.35;
+        this.y += this.vy;
+        this.angle += this.spin;
+        this.vx *= 0.985;
+
+        if (this.y > canvas.height + 20 || this.x < -20 || this.x > canvas.width + 20) {
+          this.reset(false);
+          this.y = -10;
+        }
+      }
+
+      draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+        ctx.globalAlpha = this.alpha;
+
+        if (this.isPetal) {
+          // Royal crimson/rose gold floral petal
+          const grad = ctx.createRadialGradient(0, 0, 1, 0, 0, this.size);
+          grad.addColorStop(0, '#F6E6B4');
+          grad.addColorStop(0.5, '#D4AF37');
+          grad.addColorStop(1, '#7A1630');
+          ctx.fillStyle = grad;
+          ctx.beginPath();
+          ctx.ellipse(0, 0, this.size, this.size * 0.55, 0, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          // Glowing golden dust mote
+          ctx.fillStyle = '#F7E7B4';
+          ctx.shadowBlur = 8;
+          ctx.shadowColor = '#D4AF37';
+          ctx.beginPath();
+          ctx.arc(0, 0, this.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        ctx.restore();
+      }
+    }
+
+    function initParticles() {
+      particles = [];
+      const count = window.innerWidth < 640 ? 45 : 80;
+      for (let i = 0; i < count; i++) {
+        particles.push(new Particle(false));
+      }
+    }
+
+    function spawnBurstParticles(amount) {
+      for (let i = 0; i < amount; i++) {
+        const p = new Particle(true);
+        particles.push(p);
+      }
+      if (particles.length > 160) {
+        particles.splice(0, particles.length - 120);
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+      }
+      requestAnimationFrame(animateParticles);
+    }
+
+    // -----------------------------------------------------------------------
+    // 6. SCROLL REVEAL OBSERVER
+    // -----------------------------------------------------------------------
+    function triggerScrollReveals() {
+      const elements = document.querySelectorAll('.reveal-on-scroll');
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 50) {
+          el.classList.add('visible');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', triggerScrollReveals, { passive: true });
+
+    window.onload = function () {
+      renderCouplePortraits();
+      ensureAudioLoaded();
+      initParticles();
+      animateParticles();
+      triggerScrollReveals();
+    };
+  </script>
+</body>
+</html>
